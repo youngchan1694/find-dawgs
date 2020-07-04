@@ -3,7 +3,7 @@
     <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
         <v-img
-          alt="Vuetify Logo"
+          alt="Dog Logo"
           class="shrink mr-2"
           contain
           src="../public/static/dog icon.png"
@@ -14,9 +14,9 @@
       <span> DAWGS </span>
     </v-app-bar>
 
-    <v-content>
+    <v-main>
       <router-view></router-view>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 

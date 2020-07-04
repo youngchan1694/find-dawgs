@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "watch": "nodemon --watch 'src/server/**/*.ts' -e ts --exec ts-node src/server/index.ts"
+    "watch": "nodemon --watch 'src/server/*.ts' -e ts --exec ts-node src/server"
   },
   "dependencies": {
     "axios": "^0.19.2",
