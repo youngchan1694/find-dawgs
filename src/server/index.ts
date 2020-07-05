@@ -92,6 +92,22 @@ const dogs = [
       new DogClasses.Shot("hepatitis", new Date(2019, 12, 10)),
       new DogClasses.Shot("rabies", new Date(2019, 2, 15))
     ]
+  ),
+  new DogClasses.Dog(
+    "Rose",
+    "maltese.jpg",
+    new DogClasses.Area("Sydney", "Australia", 19002),
+    "Female",
+    "Maltese",
+    5,
+    true,
+    25,
+    [
+      new DogClasses.Shot("distemper", new Date(2019, 2, 15)),
+      new DogClasses.Shot("parvovirus", new Date(2019, 12, 10)),
+      new DogClasses.Shot("hepatitis", new Date(2019, 12, 10))
+      //new DogClasses.Shot("rabies", new Date(2019, 2, 15))
+    ]
   )
 ];
 
