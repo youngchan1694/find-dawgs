@@ -1,6 +1,5 @@
 # Find Dawgs
 
-Highely Recommend Using Yarn
 
 ## Project setup
 ```
